@@ -16,17 +16,17 @@ The goals / steps of this project are the following:
 * Estimate a bounding box for vehicles detected.
 
 **Included Files**
-1) Project Writeup: [p5_vehicle_detection.html](/p5_vehicle_detection.html)
-2) [p5_vehicle_detection.ipynb](/p5_vehicle_detection.ipynb): Jupyter notebook with the project
+1) Project Writeup: [P5_vehicle_detection.html](/P5_vehicle_detection.html)
+2) [P5_vehicle_detection.ipynb](/P5_vehicle_detection.ipynb): Jupyter notebook with the project
 3) Python Files Imported to Notebook in 2:
-[VehicleTracker.py](/VehicleTracker.py): class to track vehicle heatmap info across frames		
-[find_cars.py](/find_cars.py): sliding window and scaling to extract features and predict cars with classifier
-[get_features.py](/get_features.py): HOG/color/spatial feature extraction
-[image_helpers.py](/image helpers.py): routines to calculate, threshold & render heatmaps, bounding boxes, & overlays
-[Classifier.py](/Classifier.py): class to store Classifier information	
-[camera_prep.py](/camera_prep.py): routines to calibrate the camera
-[pipeline.py](/pipeline.py): processing pipeline for images
-[plot_images.py](/plot_images.py): helper for plotting
+* [VehicleTracker.py](/VehicleTracker.py): class to track vehicle heatmap info across frames		
+* [find_cars.py](/find_cars.py): sliding window and scaling to extract features and predict cars with classifier
+* [get_features.py](/get_features.py): HOG/color/spatial feature extraction
+* [image_helpers.py](/image_helpers.py):routines to calculate, threshold & render heatmaps, bounding boxes, & overlays
+* [Classifier.py](/Classifier.py): class to store Classifier information	
+* [camera_prep.py](/camera_prep.py): routines to calibrate the camera
+* [pipeline.py](/pipeline.py): processing pipeline for images
+* [plot_images.py](/plot_images.py): helper for plotting
 4) [output images folder](/output_images): example test output images
 5) [test_image_output](/test_image_output) folder: pipeline output for all test images
 6) [project_output_video.mp4](/project_output_video.mp4): final project output video
